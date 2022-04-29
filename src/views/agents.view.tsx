@@ -89,7 +89,6 @@ export function AgentView(props: any) {
                                 <div className="form-group">
                                     <label htmlFor="currentIncome">Current Income</label>
                                     <input type="number" onChange={checkInpuSize} className="form-control" id="currentIncome" aria-describedby="incomeHelp" placeholder="150000" />
-                                    <small id="incomeHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                                 </div>
                                 <ThemeButtonPrimary onClick={searchAgents} name="Get Matches" icon={<FontAwesomeIcon icon={solid('arrow-right')} />} />
                             </form>
