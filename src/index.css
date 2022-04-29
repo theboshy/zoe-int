@@ -7,7 +7,48 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main-theme-color {
+  color: #747D9B;
+}
+
+.interaction-color {
+  background-color: #5C7BEB !important;
+  color: white !important;
+}
+
+.error-text {
+  opacity: 1;
+  color: red !important;
+}
+
+.title {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.title-secondary {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.sub-title {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  text-align: left;
 }

@@ -1,0 +1,11 @@
+.logo {
+    left: 2.2%;
+    object-fit: cover;
+    padding: 0.2em;
+    max-width: 120px;
+}
+
+.app-bar {
+    background-color: #FAFAFA;
+    padding: 1em;
+}

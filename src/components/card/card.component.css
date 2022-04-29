@@ -1,0 +1,41 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    max-width: 280px;
+    padding: unset !important;
+    margin: 2em;
+    min-width: 288px;
+}
+
+.body {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    padding: 2em;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    margin-top: 1em;
+    justify-content: center;
+    display: grid;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    background-color: #F5F5F5;
+    min-height: 70px;
+}
