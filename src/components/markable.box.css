@@ -1,0 +1,14 @@
+.markable-box {
+    width: 100px;
+    height: 100px;
+    border-style: solid solid solid solid;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.markable-box-item {
+    font-size: 40px;
+    font-weight: bold;
+}

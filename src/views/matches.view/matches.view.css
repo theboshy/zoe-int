@@ -1,0 +1,30 @@
+.agents-list {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.justify-to-center-cus {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.paginator {
+    justify-content: right;
+    display: flex;
+    padding-right: 4em;
+}
+
+.paginator-item {
+    margin-right: 1em;
+}
+
+.container-size {
+    width: 70%;
+}
+
+@media (max-width: 600px) {
+    .container-size {
+        width: 100%;
+    }
+}
